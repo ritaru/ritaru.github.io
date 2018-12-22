@@ -17,17 +17,35 @@ title: Blog
 email: uuil31@gmail.com
 description: "Veritas Lux Mea"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ritaru.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://ritaru.github.com # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ritaru
 
-accent_image: /sidebar.jpg
+#theme: jekyll-theme-hydejack
+remote_theme: qwtel/hydejack
+
 accent_color: rgb(215,91,143)
+theme_color: rgb(215,91,143)
+
+disqus_shortname: rita
+
+author:
+  name: Rita Amane
+  email: uuil31@gmail.com
 
 # Build settings
 markdown: kramdown
-remote_theme: qwtel/hydejack
+
 plugins:
   - jekyll-feed
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
