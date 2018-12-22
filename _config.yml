@@ -25,7 +25,7 @@ accent_color: rgb(215,91,143)
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydejack
+remote-theme: qwtel/hydejack
 plugins:
   - jekyll-feed
 # Exclude from processing.
