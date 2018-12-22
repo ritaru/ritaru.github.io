@@ -31,9 +31,7 @@ logo: /assets/img/avatar.jpg
 
 accent_color: rgb(215,91,143)
 theme_color: rgb(215,91,143)
-accent_image:
-  background: rgba(215,91,143,0.6)
-  overlay: false
+accent_image: /assets/img/background.jpg
 
 font_heading: Noto Sans KR, sans-serif
 font: Noto Sans KR, sans-serif
@@ -44,7 +42,7 @@ paginate_path: "/page-:num/"
 
 # Build settings
 markdown: kramdown
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: qwtel/hydejack
 plugins:
   - jekyll-feed

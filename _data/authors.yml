@@ -1,12 +1,9 @@
 rita:
   name: Rita Amane
   email: uuil31@gmail.com
-  about: ""
+  about: "성적이 개발의 전부는 아니잖아요!"
   picture:
     src: /assets/img/avatar.jpg
-    srcset:
-      1x: /assets/img/avatar.jpg
-      2x: /assets/img/avatar.jpg
 
   social:
     github: ritaru
