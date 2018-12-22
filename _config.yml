@@ -44,7 +44,7 @@ paginate_path: "/page-:num/"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 remote-theme: qwtel/hydejack
 plugins:
   - jekyll-feed
