@@ -14,38 +14,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Blog
-email: uuil31@gmail.com
-description: "Veritas Lux Mea"
+description: Veritas Lux Mea
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://ritaru.github.com # the base hostname & protocol for your site, e.g. http://example.com
-github_username: ritaru
-
-#theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack
-
-accent_color: rgb(215,91,143)
-theme_color: rgb(215,91,143)
-
-disqus_shortname: rita
+url: https://ritaru.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
   name: Rita Amane
   email: uuil31@gmail.com
 
+disqus_shortname: rita
+copyright: "&copy; All rights reserved. by Rita"
+
+paginate: 5
+paginate_path: "/page-:num/"
+
 # Build settings
 markdown: kramdown
-
+theme: jekyll-theme-hydejack
+remote-theme: qwtel/hydejack
 plugins:
   - jekyll-feed
-
-exclude:
-  - README.md
-  - LICENSE.md
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

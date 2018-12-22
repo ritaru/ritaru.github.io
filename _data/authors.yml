@@ -1,13 +1,14 @@
 rita:
   name: Rita Amane
-  email: uui3l1@gmail.com
-  about: Nonexistent
+  email: uuil31@gmail.com
+  about: ""
   picture:
-    src: /avatar.jpg
+    src: /assets/img/avatar.jpg
     srcset:
-      1x: /avatar.jpg
-      2x: /avatar.jpg
+      1x: /assets/img/avatar.jpg
+      2x: /assets/img/avatar.jpg
+
   social:
     github: ritaru
     email: mailto:uuil31@gmail.com
-    rss: https://ritaru.github.com/feed.xml
+    rss: https://ritaru.github.io/feed.xml
