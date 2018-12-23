@@ -42,14 +42,13 @@ paginate_path: "/page-:num/"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 remote_theme: qwtel/hydejack
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-responsive-image
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -22,31 +22,19 @@ categories: Review
 그렇게 해서 부랴부랴 새벽에 SSD를 퀵으로 주문하고 아침에 다시 일어나 봤더니 주말엔 배송을 안 한다고(…).  
 덕분에 오늘 바깥 바람도 쐴 겸 물건을 직접 수령해 왔다.
 
-![EVO-1](/assets/img/2016-07-18/DSC1145.jpg){:class="img-responsive"}
-![EVO-2](/assets/img/2016-07-18/DSC1150.jpg){:class="img-responsive"}
+![EVO-1](/assets/img/2016-07-18/DSC1145.jpg)
+
+![EVO-2](/assets/img/2016-07-18/DSC1150.jpg)
 
 인클로저는 경량의 얇은 금속 재질. 발열을 해결하기 위한 것으로 보인다.
 
-![RevuAhn-1](/assets/img/2016-07-18/DSC1153.jpg){:class="img-responsive"}
-![RevuAhn-2](/assets/img/2016-07-18/DSC1155.jpg){:class="img-responsive"}
-![RevuAhn-3](/assets/img/2016-07-18/DSC1156.jpg){:class="img-responsive"}
-![RevuAhn-4](/assets/img/2016-07-18/DSC1157.jpg){:class="img-responsive"}
+![RevuAhn-1](/assets/img/2016-07-18/DSC1153.jpg)
 
-죽어버린 SSD를 분해해 봤다.  
-처음엔 흔한 접촉 불량인가 싶어 커넥터를 다시 납땜해 보기도 하고, 지우개로 단자 부분을 문질러도 봤지만 별 소용이 없었다.  
-이 제품의 컨트롤러는 SMI 社의 SM2246EN으로, 주로 중저가형 SSD에 많이 사용된다.  
-여담이지만 이거, 나름 1600TBW까지 버틴다고 선전한 물건이다(…).  
-개인적으론 저장장치에 투자를 조금 더 해서, 필자와 같은 사태를 겪지 않았으면 한다.
+![RevuAhn-2](/assets/img/2016-07-18/DSC1155.jpg)
 
-이 일이 있기 전에도 가끔 SSD가 인식이 되지 않는 일이 있었다.  
-그 때마다 SATA 선만 뺐다 끼워주면 문제가 없길래, 접촉 불량 문제인가 했었다.  
-다시 말하지만, 저장 장치엔 투자를 조금 더 하자(…).  
-물론 CTRL+S는 기본 소양이고.
+![RevuAhn-3](/assets/img/2016-07-18/DSC1156.jpg)
 
-새로 산 850 series EVO는 나름 괜찮다.  
-TLC라 수명이 짧다고 꺼리는 사람도 있겠지만, 일반적인 사용자에게는 문제가 되지 않는 수준.  
-Data Migration 툴을 제공해 주어서 OS 설치를 다시 하지 않아도 된다는 점이 편했다.  
-가격도 10만원 이하이니 가성비로는 상위권이지 않을까.
+![RevuAhn-4](/assets/img/2016-07-18/DSC1157.jpg)
 
 죽어버린 SSD를 분해해 봤다.  
 처음엔 흔한 접촉 불량인가 싶어 커넥터를 다시 납땜해 보기도 하고, 지우개로 단자 부분을 문질러도 봤지만 별 소용이 없었다.
@@ -66,8 +54,9 @@ TLC라 수명이 짧다고 꺼리는 사람도 있겠지만, 일반적인 사용
 Data Migration 툴을 제공해 주어서 OS 설치를 다시 하지 않아도 된다는 점이 편했다.  
 가격도 10만원 이하이니 가성비로는 상위권이지 않을까.
 
-![Benchmark-1](/assets/img/2016-07-18/SSD_INFO-1.png){:class="img-responsive"}
-![Benchmark-2](/assets/img/2016-07-18/SSD_MARK.png){:class="img-responsive"}
+![Benchmark-1](/assets/img/2016-07-18/SSD_INFO-1.png)
+
+![Benchmark-2](/assets/img/2016-07-18/SSD_MARK.png)
 
 TLC답지 않게 높은 성능을 자랑한다.  
 보통 TLC의 경우 Access Time이 늦기 마련인데, 이것은 그런 현상이 없다.
