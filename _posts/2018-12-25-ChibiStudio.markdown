@@ -31,7 +31,7 @@ ChibiOS Root Directory Location(\$CHIBIOS)가 변하기 때문에 빌드가 되�
 GNU MCU Eclipse 64-bits Open On-Chip Debugger 0.10.0+dev-00487-gaf359c18 (2018-05-12-19:30)
 Licensed under GNU GPL v2
 For bug reports, read
-	http://openocd.org/doc/doxygen/bugs.html
+    http://openocd.org/doc/doxygen/bugs.html
 WARNING: interface/stlink-v2.cfg is deprecated, please switch to interface/stlink.cfg
 Info : auto-selecting first available session transport "hla_swd". To override use 'transport select <transport>'.
 Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
@@ -49,3 +49,11 @@ Info : Target voltage: 3.250693
 Info : stm32f1x.cpu: hardware has 6 breakpoints, 4 watchpoints
 Info : Listening on port 3333 for gdb connections
 ```
+
+RT-STM32F103-MAPLEMINI demo를 이용하여 Blue pill 또는 Black pill 보드의 USB-Serial 기능을 사용하려면 Makefile 중 다음 부분을 0으로 수정한다.
+
+```Makefile
+USE_MAPLEMINI_BOOTLOADER ?= 1
+```
+
+그렇지 않은 경우 빌드 후 디버깅 및 플래싱이 불가능하다.
