@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ChibiStudio 개발 환경 설정"
-categories: "Tech"
+categories: "ChibiOS"
 ---
 
 OpenOCD와 ChibiStudio를 설치했다면 다음과 같은 환경 설정이 필요하다.  
