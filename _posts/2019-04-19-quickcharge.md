@@ -82,3 +82,11 @@ int main(void) {
 ```
 
 위 코드를 가지고 ATmega8A로 테스트해본 결과 문제 없이 12V가 출력되므로 위의 부품들을 이용해 작게 만들어 LED 램프나 Li-ion 충전기의 전원으로 사용하면 좋을 것 같다.
+
+## Added 2019-04-22
+
+실험을 해 본 결과 마이크로컨트롤러 없이 Comparator IC 하나와 간단한 RC회로로 타이머를 이용해 Monostable Oscillator를 만들어 9V/12V 출력이 가능했다.  
+어차피 D+ 라인은 0.6V로 항상 끌어내려야 하니, D- 라인만 1.25s동안 floating 상태로 두면 되므로 PNP 트랜지스터를 Comparator Output에 달아 사용하면 된다.  
+추가적인 내용은 아래에 회로도를 그려 두었으니 참고하시길.
+
+![Schematic](/assets/img/2019-04-19/schematic.png)
