@@ -39,7 +39,6 @@ google_fonts: Noto+Sans+KR:400,400i,700,700i
 
 paginate: 5
 paginate_path: "/page-:num/"
-relative_permalinks: true
 
 # Build settings
 markdown: kramdown
