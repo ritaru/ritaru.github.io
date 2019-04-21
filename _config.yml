@@ -42,7 +42,7 @@ paginate_path: "/page-:num/"
 
 # Build settings
 markdown: kramdown
-#theme: jekyll-theme-hydejack
+# theme: jekyll-theme-lanyon
 remote_theme: poole/lanyon
 plugins:
   - jekyll-feed
