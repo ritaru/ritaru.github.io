@@ -5,7 +5,7 @@ categories: Review
 ---
 
 최근 [Pentax Forums](https://www.pentaxforums.com) 에서 렌즈를 구입했다.
-
+<!--excerpt-->
 한국에서는 SLR Club이나 중고나라에서 필름카메라용 수동 렌즈를 저렴하게 구할 수 있는데, 저렴한 만큼 발삼이나 문제가 있는 경우가 많아서 이번엔 해외 사이트를 이용해볼까 해서 마침 필요했던 Pentax-M SMC 50mm F1.7 렌즈를 $60 CAD에 구했다.
 
 총 가격은 배송비와 페이팔 수수료를 포함해 $87 CAD.

@@ -5,7 +5,7 @@ categories: "Tech"
 ---
 
 Python의 version manager는 virtualenv 등이 있지만 여러모로 pyenv가 편하여 pyenv를 사용하기로 했다.
-
+<!--excerpt-->
 pyenv github을 참고하면 다음과 같은 방법으로 설치하도록 되어 있다.
 
 ```bash

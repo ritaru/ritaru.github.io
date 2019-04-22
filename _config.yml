@@ -41,7 +41,9 @@ font_heading: Noto Sans KR, sans-serif
 font: Noto Sans KR, sans-serif
 google_fonts: Noto+Sans+KR:400,400i,700,700i
 
-paginate: 1
+excerpt_separator: <!--excerpt-->
+
+paginate: 10
 paginate_path: "/page:num/"
 
 # Build settings

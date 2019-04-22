@@ -6,7 +6,7 @@ categories: "ChibiOS"
 
 OpenOCD와 ChibiStudio를 설치했다면 다음과 같은 환경 설정이 필요하다.  
 STM32F103 기준, External Tools로 OpenOCD를 추가해야 하는데 다음과 같은 Argument를 추가해 주어야 한다.
-
+<!--excerpt-->
 ```text
 -f C:\OpenOCD\scripts\interface\stlink-v2.cfg -f C:\OpenOCD\scripts\target\stm32f1x.cfg
 ```

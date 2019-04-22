@@ -4,9 +4,8 @@ title: "Quick Charge를 이용하여 12V 출력하기"
 categories: Tech
 ---
 
-## Preface
-
 Qualcomm의 Quick Charge 2.0/3.0 규격은 보조배터리에도 많이 탑재되어 휴대기기의 빠른 충전을 돕고 있다.  
+<!--excerpt-->
 그런데 스마트기기가 아닌 일반 장치를 연결할 경우 USB의 D-/D+ 라인에서 통신이 이루어지지 않으므로 5V만을 출력하기 때문에, 9V/12V 출력을 사용하려면 저항 4개와 ATtiny13 정도의 작은 마이크로프로세서가 필요하다.
 
 ## Parts
