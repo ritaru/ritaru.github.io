@@ -5,6 +5,7 @@ categories: Tech
 ---
 
 최근에 수업에서 사용할 라이브러리를 만들기 위해 조금 공부를 할 일이 있었다.  
+<!--excerpt-->
 
 ```c
 // myLib.h
