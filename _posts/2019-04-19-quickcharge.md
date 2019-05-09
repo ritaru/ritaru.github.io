@@ -88,4 +88,4 @@ int main(void) {
 어차피 D+ 라인은 0.6V로 항상 끌어내려야 하니, D- 라인만 1.25s동안 floating 상태로 두면 되므로 PNP 트랜지스터를 Comparator Output에 달아 사용하면 된다.  
 추가적인 내용은 아래에 회로도를 그려 두었으니 참고하시길.
 
-![Schematic](/assets/img/2019-04-19/schematic.png)
+[![schematic.png](/assets/img/2019-04-19/schematic.png)](/assets/img/2019-04-19/schematic.png)
