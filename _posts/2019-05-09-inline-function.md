@@ -57,7 +57,7 @@ uint16_t frequency() {
 ```c
 #include "myLib.h"
 int main(void) {
-    printf("%ld\n", 8000000);
+     printf("%ld\n", 8000000);
     printf("%ld\n", frequency());
 }
 ```
