@@ -94,4 +94,4 @@ categories: Tech
 AVR을 가지고 실험해본 결과 전원 ON/OFF는 위 코드 조합으로 정상적으로 작동하는 것을 확인했으나 시간 예약 등의 기능을 사용하기 위해서 조금 더 분석을 필요로 할 것 같다.
 
 분석한 자료를 구글 드라이브에 올려 두었으니 필요하시다면 사용하시기 바랍니다.  
-[Google Drive]("https://drive.google.com/file/d/1zBvzyFHEL74K719ICg7T4NypB0WAg3Kc/view?usp=sharing")
+[Google Drive](https://drive.google.com/file/d/1zBvzyFHEL74K719ICg7T4NypB0WAg3Kc/view?usp=sharing)
