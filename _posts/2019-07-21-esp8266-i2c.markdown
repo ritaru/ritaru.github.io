@@ -25,7 +25,7 @@ static void i2c_master_set_dc(i2c_port_t i2c_num, uint8_t sda, uint8_t scl)
 ```
 
 이 경우, i2c 포트가 Open Drain 모드로 설정되기 때문에 값을 읽어오려면 Slave Device 쪽에서 High 레벨을 끌어내려야 하는데 임피던스 차이로 인해 값의 변화가 나타나질 않는다.  
-이를 해결하기 위해 Write시에만 Open Drain 모드를 사용하고, Read시에는 Input 모드로 핀을 설정하였다.
+이를 해결하기 위해 핀을 High 상태로 유지할 때는 Input Mode(Pullup enabled), Low 상태일 때는 Open Drain Output을 사용하였다.
 
 ```c
 // driver/i2c.c
