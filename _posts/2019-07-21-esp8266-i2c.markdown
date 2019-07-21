@@ -1,0 +1,49 @@
+---
+layout: post
+title: "ESP8266 RTOS SDK의 I2C Driver 문제"
+categories: Tech
+---
+
+Espressif에서는 ESP8266과 ESP32의 RTOS SDK를 공개하고 있다.  
+ESP32의 경우 별도의 I2C 하드웨어가 존재하기 때문에 Bit-banging을 할 이유가 없지만, ESP8266은 아쉽게도 하드웨어가 따로 존재하지 않아 Bit-banging을 통해 드라이버가 구현되어 있다.  
+이제 장마철이라 습도가 많이 올라가는데, 따로 제습함을 마련해 둔 것이 없어 일단 측정을 위해 간단한 온습도계를 만들어보고자 했다.  
+
+온습도 센서인 HTU21D는 통신 프로토콜로 I2C를 사용하는데, 이를 사용하기 위해 RTOS SDK에 포함된 I2C 드라이버를 사용해 보았지만 제대로 온도/습도값을 읽어올 수 없었다.  
+혹시나 타이밍 문제인가 싶어 측정 커맨드를 보내고 값을 읽기 전까지 시간 텀을 변화시켜 봤지만 문제는 그대로였다.  
+
+그 때 생각이 들었던 게, I2C는 생각보다 임피던스 매칭에 민감하다는 사실이었다.  
+RTOS SDK의 I2C 드라이버는 아래와 같은 코드를 사용한다.
+
+```c
+// driver/i2c.c
+static void i2c_master_set_dc(i2c_port_t i2c_num, uint8_t sda, uint8_t scl)
+{
+    i2c_last_state[i2c_num]->val = ((sda & 0x1) << 1) | (scl & 0x1);
+    gpio_set_level(i2c_config[i2c_num]->sda_io_num, i2c_last_state[i2c_num]->sda);
+    gpio_set_level(i2c_config[i2c_num]->scl_io_num, i2c_last_state[i2c_num]->scl);
+}
+```
+
+이 경우, i2c 포트가 Open Drain 모드로 설정되기 때문에 값을 읽어오려면 Slave Device 쪽에서 High 레벨을 끌어내려야 하는데 임피던스 차이로 인해 값의 변화가 나타나질 않는다.  
+이를 해결하기 위해 Write시에만 Open Drain 모드를 사용하고, Read시에는 Input 모드로 핀을 설정하였다.
+
+```c
+// driver/i2c.c
+static void i2c_master_set_dc(i2c_port_t i2c_num, uint8_t sda, uint8_t scl){
+    i2c_last_state[i2c_num]->val = ((sda & 0x1) << 1) | (scl & 0x1);
+
+    // SDA 값에 따라 Input Mode와 Open Drain Output 모드를 결정
+    gpio_set_direction(i2c_config[i2c_num]->sda_io_num,
+                       i2c_last_state[i2c_num]->sda?
+                       GPIO_MODE_INPUT:GPIO_MODE_OUTPUT_OD);
+    gpio_set_level(i2c_config[i2c_num]->sda_io_num, i2c_last_state[i2c_num]->sda);
+
+    // SCL 값에 따라 Input Mode와 Open Drain Output 모드를 결정
+    gpio_set_direction(i2c_config[i2c_num]->scl_io_num,
+                       i2c_last_state[i2c_num]->scl?
+                       GPIO_MODE_INPUT:GPIO_MODE_OUTPUT_OD);
+    gpio_set_level(i2c_config[i2c_num]->scl_io_num, i2c_last_state[i2c_num]->scl);
+}
+```
+
+변경 후에는 제대로 잘 동작하는 것을 확인하였다.
