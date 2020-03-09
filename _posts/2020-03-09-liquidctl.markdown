@@ -12,7 +12,7 @@ categories: Tech
 원인을 찾고 보니 케이스에 PCIe 라이저 카드를 장착하면서 그래픽카드가 정상적으로 초기화되었어야 하는데, 보조 전원에 전원 케이블을 꽂아둔 채로 PCIe 슬롯에 그래픽카드를 장착해서 문제가 생겼던 것.  
   
 두 번째로는 NZXT CAM 소프트웨어를 리눅스 환경에서 사용할 수 없다는 것이었는데, 이를 해결해주는 멋진 CLI 도구가 있었다.  
-([liquidctl Github](https://github.com/jonasmalacofilho/liquidctl))
+[liquidctl](https://github.com/jonasmalacofilho/liquidctl)
   
 그런데 자꾸 Permission Error가 생기거나, 아니면 아예 liquidctl을 설치할 수 없는 문제가 있었다.  
   
@@ -20,12 +20,12 @@ categories: Tech
 
 ## liquidctl 설치가 안 되는 경우
 
-이 경우는 Prerequisite 라이브러리나 패키지가 설치되지 않은 경우인데, pip를 통해 설치하면서 로그를 주의깊게 보자. 대부분 libusb 라이브러리가 설치되지 않은 경우이다.  
+이 경우는 Prerequisite 라이브러리나 패키지가 설치되지 않은 경우인데, pip를 통해 설치하면서 로그를 주의깊게 보자. 대부분 libudev 라이브러리가 설치되지 않은 경우이다.  
 
 Ubuntu 계열의 OS를 사용한다면 
 
 ```bash
-sudo apt install libusb-1.0
+sudo apt install libudev-dev
 ```
 
 을 통해 설치해 주자.
@@ -112,4 +112,10 @@ Asetek 690LC (assuming EVGA CLC)
 └── Firmware version      2.10.0.0
 ```
 
-혹시 이외의 다른 문제가 발생한다면 liquidctl을 --debug 옵션을 주어 실행해 보자.
+혹시 이외의 다른 문제가 발생한다면 liquidctl을 --debug 옵션을 주어 실행해 보자.  
+
+690LC로 표시되는 장치(주로 EVGA)의 Fan speed가 위처럼 0 rpm으로 표시된다면
+```bash
+liquidctl initialize --legacy-690lc
+```
+를 통해 초기화해 주면 정상적으로 표시된다.
