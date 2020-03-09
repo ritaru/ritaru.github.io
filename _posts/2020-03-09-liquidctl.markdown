@@ -114,8 +114,5 @@ Asetek 690LC (assuming EVGA CLC)
 
 혹시 이외의 다른 문제가 발생한다면 liquidctl을 --debug 옵션을 주어 실행해 보자.  
 
-690LC로 표시되는 장치(주로 EVGA)의 Fan speed가 위처럼 0 rpm으로 표시된다면
-```bash
-liquidctl initialize --legacy-690lc
-```
-를 통해 초기화해 주면 정상적으로 표시된다.
+690LC로 표시되는 장치(주로 EVGA)의 Fan speed가 위처럼 0 rpm으로 표시된다면 정상이다.  
+아직 master branch에서 해당 장치의 Fan speed를 읽어 오는 기능이 구현되지 않았다.
