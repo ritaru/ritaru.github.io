@@ -26,21 +26,24 @@ categories: Tech
 
 | 품목명 | 수량 | 링크 | 비고 |
 | :---: | :---: | :---: | :---: |
-| 복스 핸들 3/8" | 1 |  | 시중품 어떤 것이든 사용 가능. 망치 대용으로 사용해야 할 수도 있으니 튼튼한 것으로. |
-| 실리콘 그리스 | 1 | [Super Lube Silicon Grease](https://smartstore.naver.com/yc0944/products/7223498671) | Silicon Grease 사용 필수. 보통 신에츠社 제품을 많이 사용 |
-| MDPS 스몰 베어링 풀러 | 1 | [네이버 스토어](https://smartstore.naver.com/s09com/products/6696618258) | 베어링 풀러의 경우 626/608 모두 사용 가능하나, 장착 공구는 사용 불가능. 장착 시 복스알 사용 필요 |
-| 자석 자바라 | 1 | [네이버 스토어](https://smartstore.naver.com/s09com/products/2001512169) | 고정 스프링, 핀을 빼기 위해 필요. 필수는 아니나 있으면 좋음 |
-| SKF 608ZZ/C3 | 1 | [네이버 스토어](https://smartstore.naver.com/wibearings/products/6159809135) | C3 이상 사용할 것, Axial Load가 있을 수 있음. NTN, NSK 등 일본산 베어링 역시 NMB제 베어링과 마찬가지로 짧은 수명이 보고됨. |
-| 베어링 키트 | 1 | [파츠로](https://partsro.com/front/php/product.php?product_no=856798&) | 626ZZ의 경우 [56359-L1AAAFFF](http://partsro.com/product/detail.html?product_no=836998) 사용. 현대 부품 번호 56358-AAAAAFFF. 플라스틱 커버 적용 차량의 경우 커버가 일회용이므로 반드시 필요하다. Sliding Damper의 경우도 재장착하는 것을 권장하지 않는다. |
+| 복스 핸들 3/8" | 1 |  | 시중품 어떤 것이든 사용 가능.<br />망치 대용으로 사용해야 할 수도 있으니 튼튼한 것으로. |
+| 실리콘 그리스 | 1 | [Super Lube Silicon Grease](https://smartstore.naver.com/yc0944/products/7223498671) | Silicon Grease 사용 필수.<br />보통 신에츠社 제품을 많이 사용 |
+| MDPS 스몰 베어링 풀러 | 1 | [네이버 스토어](https://smartstore.naver.com/s09com/products/6696618258) | 베어링 풀러의 경우 626/608 모두 사용 가능하나,<br />장착 공구는 사용 불가능.<br />장착 시 복스알 사용 필요 |
+| 자석 자바라 | 1 | [네이버 스토어](https://smartstore.naver.com/s09com/products/2001512169) | 고정 스프링, 핀을 빼기 위해 필요.<br />필수는 아니나 있으면 좋음 |
+| SKF 608ZZ/C3 | 1 | [네이버 스토어](https://smartstore.naver.com/wibearings/products/6159809135) | C3 이상 사용할 것, Axial Load가 있을 수 있음.<br />일본산 베어링 역시 마찬가지로 짧은 수명이 보고됨. |
+| 베어링 키트 | 1 | [파츠로](https://partsro.com/) | 626ZZ의 경우 [56359-L1AAAFFF](http://partsro.com/product/detail.html?product_no=836998).<br />608ZZ는 [56358-AAAAAFFF](https://partsro.com/front/php/product.php?product_no=856798).<br />플라스틱 커버 적용 차량의 경우 커버가 일회용이므로 필수.<br />Sliding Damper의 경우도 재장착하는 것을 권장하지 않는다. |
 
 [![RSJF9298.jpg](/assets/img/2023-01-11/RSJF9298.jpg)](/assets/img/2023-01-11/RSJF9298.jpg)
 
 SKF의 경우 다국적 기업으로 여러 곳에서 생산된 제품을 받을 수 있다.  
 나의 경우 이탈리아 생산 제품을 받았다.
 
+<style>
+    .footnote {
+        font-size: 0.9rem
+    }
+</style>
 
-<span style="font-size: 0.9rem;">
-    <a name="footnote_1" href="#footnote_1">[1]</a> D는 커버가 고무이고, ZZ타입은 커버가 금속 재질이다. <br />
-    <a name="footnote_2" href="#footnote_2">[2]</a> <a href="https://wpc.mobis.co.kr/">WPC(Web Parts Catalogue)</a>, 부품 상세 검색 사이트 <br />
-    <a name="footnote_3" href="#footnote_3">[3]</a> <a href="https://gsw.hyundai.com/hmc/login.tiles">GSW(Global Service Way)</a>, 현대자동차 수리 및 기술 정보 사이트, 가입 필요 
-</span>
+<a class="footnote" name="footnote_1" href="#footnote_1">[1]</a> D는 커버가 고무이고, ZZ타입은 커버가 금속 재질이다.  
+<a class="footnote" name="footnote_2" href="#footnote_2">[2]</a> [WPC(Web Parts Catalogue)](https://wpc.mobis.co.kr/), 부품 상세 검색 사이트  
+<a class="footnote" name="footnote_3" href="#footnote_3">[3]</a> [GSW(Global Service Way)](https://gsw.hyundai.com/hmc/login.tiles), 현대자동차 수리 및 기술 정보 사이트, 가입 필요
