@@ -39,7 +39,8 @@ SKF의 경우 다국적 기업으로 여러 곳에서 생산된 제품을 받을
 나의 경우 이탈리아 생산 제품을 받았다.
 
 
-<a name="footnote_1">[1]</a> D는 커버가 고무이고, ZZ타입은 커버가 금속 재질이다.  
-<a name="footnote_2">[2]</a> [WPC(Web Parts Catalogue)](https://wpc.mobis.co.kr/), 부품 상세 검색 사이트  
-<a name="footnote_3">[3]</a> [GSW(Global Service Way)](https://gsw.hyundai.com/hmc/login.tiles), 현대자동차 수리 및 기술 정보 사이트, 가입 필요 
-
+<span style="font-size: 0.9rem;">
+    <a name="footnote_1" href="#footnote_1">[1]</a> D는 커버가 고무이고, ZZ타입은 커버가 금속 재질이다. <br />
+    <a name="footnote_2" href="#footnote_2">[2]</a> <a href="https://wpc.mobis.co.kr/">WPC(Web Parts Catalogue)</a>, 부품 상세 검색 사이트 <br />
+    <a name="footnote_3" href="#footnote_3">[3]</a> <a href="https://gsw.hyundai.com/hmc/login.tiles">GSW(Global Service Way)</a>, 현대자동차 수리 및 기술 정보 사이트, 가입 필요 
+</span>
