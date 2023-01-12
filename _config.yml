@@ -40,6 +40,7 @@ accent_image: /assets/img/background.jpg
 font_heading: Noto Sans KR, sans-serif
 font: Noto Sans KR, sans-serif
 google_fonts: Noto+Sans+KR:400,400i,700,700i
+google_analytics: 'G-6B2CRHF348'
 
 excerpt_separator: <!--excerpt-->
 
