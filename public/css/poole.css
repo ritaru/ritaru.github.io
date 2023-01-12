@@ -434,3 +434,15 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+/* Footnotes */
+
+.footnotes p {
+  margin: 0;
+  padding: 0;
+}
+
+.footnotes ol {
+  margin: 0;
+  padding: 0;
+}

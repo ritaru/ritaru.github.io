@@ -579,13 +579,3 @@ a.pagination-item:hover {
 .footnotes {
     font-size: 0.8rem;
 }
-
-.footnotes p {
-  margin: 0;
-  padding: 0;
-}
-
-.footnotes ol {
-  margin: 0;
-  padding: 0;
-}
