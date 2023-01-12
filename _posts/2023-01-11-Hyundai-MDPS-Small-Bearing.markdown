@@ -80,10 +80,17 @@ SKF의 경우 다국적 기업으로 여러 곳에서 생산된 제품을 받을
 13. 플라스틱 트림 및 릴리스 핸들, 크래쉬 패드 로어 패널 장착
     - 위 순서의 역순으로 각 부품을 조립한다.
 
----
+<style>
+.footnotes {
+    font-size: 0.8rem;
+}
+</style>
 
+---
+<div class="footnotes" markdown="1">
 [^1]: D는 커버가 고무이고, ZZ타입은 커버가 금속 재질이다.
 [^2]: [WPC(Web Parts Catalogue)](https://wpc.mobis.co.kr/), 부품 상세 검색 사이트
 [^3]: [GSW(Global Service Way)](https://gsw.hyundai.com/hmc/login.tiles), 현대자동차 수리 및 기술 정보 사이트, 가입 필요
 [^4]: 09563-IB200
 [^5]: 0K563-L2100FFF
+</div>
