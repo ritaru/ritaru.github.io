@@ -62,3 +62,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+
+defaults:
+  - scope:
+      path: "assets/img/**/*.jpg"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/img/**/*.png"
+    values:
+      sitemap: false
