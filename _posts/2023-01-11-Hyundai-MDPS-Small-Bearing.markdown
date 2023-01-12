@@ -16,7 +16,7 @@ categories: Tech
 
 나는 아반떼 CN7을 2020년 7월에 인도받고 이후로 19,000km째 타고 있는데, 보통 90,000~100,000km에 발생해야 할 C-MDPS Worm Shaft Small Bearing 소음 문제가 벌써 발생하여 짜증이 이만저만이 아니다.
 
-글을 적으면서도 화가 나는 부분은 이 어떠한 내용을 나는 현대자동차로부터 고지받은 적도 없고, WPC[^2]를 통한 부품 조회에서도 교체 부품을 찾을 수 없고, GSW[^3]에 정말 간략하게 설명이 되어 있다.
+글을 적으면서도 화가 나는 부분은 이 어떠한 내용을 나는 현대자동차로부터 고지받은 적도 없고, [WPC(Web Parts Catalogue)](https://wpc.mobis.co.kr/)[^2]를 통한 부품 조회에서도 교체 부품을 찾을 수 없고, [GSW(Global Service Way)](https://gsw.hyundai.com/hmc/login.tiles)[^3]에 정말 간략하게 설명이 되어 있다.
 
 그래서 정말 몇 없는 정보를 찾아 헤매다 아반떼 CN7에 해당하는 [C-MDPS Worm Shaft Bearing Noise TSB](https://static.nhtsa.gov/odi/tsbs/2022/MC-10215599-0001.pdf)를 구글 검색을 통해 찾을 수 있었고, 이에 대해 적고자 한다.
 
@@ -89,8 +89,8 @@ SKF의 경우 다국적 기업으로 여러 곳에서 생산된 제품을 받을
 ---
 <div class="footnotes" markdown="1">
 [^1]: D는 커버가 고무이고, ZZ타입은 커버가 금속 재질이다.
-[^2]: [WPC(Web Parts Catalogue)](https://wpc.mobis.co.kr/), 부품 상세 검색 사이트
-[^3]: [GSW(Global Service Way)](https://gsw.hyundai.com/hmc/login.tiles), 현대자동차 수리 및 기술 정보 사이트, 가입 필요
+[^2]: 부품 상세 검색 사이트
+[^3]: 현대자동차 수리 및 기술 정보 사이트, 가입 필요
 [^4]: 09563-IB200
 [^5]: 0K563-L2100FFF
 </div>
