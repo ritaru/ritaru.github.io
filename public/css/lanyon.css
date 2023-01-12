@@ -575,3 +575,17 @@ a.pagination-item:hover {
 .post-home-date {
   font-size: 0.875rem;
 }
+
+.footnotes {
+    font-size: 0.8rem;
+}
+
+.footnotes p {
+  margin: 0;
+  padding: 0;
+}
+
+.footnotes ol {
+  margin: 0;
+  padding: 0;
+}
