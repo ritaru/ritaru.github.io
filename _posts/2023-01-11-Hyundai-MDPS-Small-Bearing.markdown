@@ -36,6 +36,7 @@ categories: Tech
 | 베어링 키트 | 1 | [파츠로](https://partsro.com/) | 626ZZ의 경우 [56359-L1AAAFFF](http://partsro.com/product/detail.html?product_no=836998).<br />608ZZ는 [56358-AAAAAFFF](https://partsro.com/front/php/product.php?product_no=856798).<br />플라스틱 커버 적용 차량의 경우 커버가 일회용이므로 필수.<br />Sliding Damper의 경우도 재장착하는 것을 권장하지 않는다. |
 
 [![RSJF9298.jpg](/assets/img/2023-01-11/RSJF9298.jpg)](/assets/img/2023-01-11/RSJF9298.jpg)
+*Radial Internal Clearance(위 제품의 경우 C3)을 꼭 확인하고 구입하여야 한다.*
 
 SKF의 경우 다국적 기업으로 여러 곳에서 생산된 제품을 받을 수 있다.  
 나의 경우 이탈리아 생산 제품을 받았다.  
@@ -58,9 +59,8 @@ SKF의 경우 다국적 기업으로 여러 곳에서 생산된 제품을 받을
     - Y렌치의 경우 공간이 좁고 주변 전선과 간섭이 있으므로 육각 렌치 등 좁은 공간에서 사용 가능한 도구로 커버를 풀어야 한다.
     - 스프링과 고정핀은 핀셋 등을 사용해도 되지만 작업 시 자석 자바라를 사용하는 것이 편하다.  
     
-        | [![RSJF9299.jpg](/assets/img/2023-01-11/RSJF9299.jpg)](/assets/img/2023-01-11/RSJF9299.jpg) |
-        | :---: |
-        | 스프링, 고정 핀이 장착되어 있는 부분. |
+        [![RSJF9299.jpg](/assets/img/2023-01-11/RSJF9299.jpg)](/assets/img/2023-01-11/RSJF9299.jpg)
+        *스프링, 고정 핀이 장착되어 있는 부분.* 
     
 7. 하단 베어링 커버 탈거
     - 플라스틱 커버 장착 차량의 경우 6개의 탭을 전부 부숴서 빼야 한다.  
