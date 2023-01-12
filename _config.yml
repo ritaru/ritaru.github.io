@@ -21,14 +21,14 @@ url: "https://ritaru.github.io" # the base hostname & protocol for your site, e.
 description: "Enthusiast."
 
 author:
-  name: Rita Amane
+  name: Haru Park
   contact:
     email: uuil31@gmail.com
     github: https://github.com/ritaru
     twitter: https://twitter.com/haru_oxksjanos
 
-disqus_shortname: rita
-copyright: "&copy; All rights reserved. by Rita"
+disqus_shortname: Haru
+copyright: "&copy; All rights reserved. by Haru"
 permalink: pretty
 
 logo: /assets/img/avatar.jpg
