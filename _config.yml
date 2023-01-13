@@ -17,7 +17,7 @@ title: Blog
 tagline: "자네 성적은 C++일세."
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ritaru.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.rlta.dev" # the base hostname & protocol for your site, e.g. http://example.com
 description: "Enthusiast."
 
 author:
