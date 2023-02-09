@@ -63,8 +63,8 @@ categories: Tech
 | :---: | :---: | :---: | :---: | :---: |
 | SUB(+) | 보조전원 +12V 추정 | SUB(+) | O |
 | SUB(-) | 보조전원 GND 추정 | SUB(-) | O |
-| FIRE(+) | 화재 감지기 전원 +24V | FIRE(+) | O | DC 24V, 무극성 |
-| FIRE(S) | 화재 감지기 GND | FIRE(-) | O | DC 24V, 무극성 |
+| FIRE(+) | 화재 감지기 전원 +24V | FIRE(+) | O | DC 24V |
+| FIRE(S) | 화재 감지기 GND | FIRE(-) | O | |
 | BG1(+) | 동체감지기 센서 전원 + | LOAD12V | O |
 | BG1(S) | 동체감지기 센서 신호. | ZONE2 | O | Normally Closed |
 | BG2(+) | 방범 센서 2 전원 + 추정 | LOAD12V | X |
