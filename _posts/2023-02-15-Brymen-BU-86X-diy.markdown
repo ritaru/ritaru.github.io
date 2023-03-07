@@ -37,9 +37,9 @@ STM32G030F 기반으로, IR Transistor와 IR LED를 사용해 BM869s와 통신�
 | 10uF / 10V MLCC | 1 | 0603(1608 Metric) | |
 | 1uF / 25V MLCC | 1 | 0603(1608 Metric) | |
 | 100nF / 50V MLCC | 2 | 0603(1608 Metric) | |
-| 2.2k 1/8W | 2 | 0603(1608 Metric) | |
-| 1k 1/8W | 1 | 0603(1608 Metric) | |
-| 750R 1/8W | 2 | 0603(1608 Metric) | |
+| 2.2k 1/10W | 2 | 0603(1608 Metric) | |
+| 1k 1/10W | 1 | 0603(1608 Metric) | |
+| 750R 1/10W | 2 | 0603(1608 Metric) | |
 | SMD Tact Switch | 1 | 5.2 x 5.2mm, 4p, 1.5mm height | |
 | USB 케이블 | 1 | | 적당히 |
 
