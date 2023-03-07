@@ -28,28 +28,33 @@ STM32G030F 기반으로, IR Transistor와 IR LED를 사용해 BM869s와 통신�
 
 | 품목명 | 필요수량 | 패키지 | 비고 |
 | :---: | :---: | :---: | :---: |
-| STM32F030F4P6 | 1 | TSSOP-20 | |
+| STM32G030F4P6 | 1 | TSSOP-20 | |
 | HT42B534-2 | 1 | SOIC-8 | |
 | 24C08 | 1 | SOT23-5 | 적당히 싼 것으로. |
 | TSAL6100 | 1 | T-1 3/4(5mm) | |
 | ORH-G35A | 1 | T-1 3/4(5mm) | LL-503PTC2 대체 |
-| Generic LED | 1 | 0805(2012 Metric) | |
-| 10uF / 10V MLCC | 1 | 0805(2012 Metric) | |
-| 1uF / 25V MLCC | 1 | 0805(2012 Metric) | |
-| 100nF / 50V MLCC | 2 | 0805(2012 Metric) | |
-| 2.2k 1/8W | 2 | 0805(2012 Metric) | |
-| 1k 1/8W | 1 | 0805(2012 Metric) | |
-| 750R 1/8W | 2 | 0805(2012 Metric) | |
+| Generic LED | 1 | 0603(1608 Metric) | |
+| 10uF / 10V MLCC | 1 | 0603(1608 Metric) | |
+| 1uF / 25V MLCC | 1 | 0603(1608 Metric) | |
+| 100nF / 50V MLCC | 2 | 0603(1608 Metric) | |
+| 2.2k 1/8W | 2 | 0603(1608 Metric) | |
+| 1k 1/8W | 1 | 0603(1608 Metric) | |
+| 750R 1/8W | 2 | 0603(1608 Metric) | |
 | SMD Tact Switch | 1 | 5.2 x 5.2mm, 4p, 1.5mm height | |
 | USB 케이블 | 1 | | 적당히 |
 
 ## Making
 
-TBD.  
-부품이 오면 작성할 예정이다.  
+[![pcb.jpg](/assets/img/2023-03-07/pcb.jpg)](/assets/img/2023-03-07/pcb.jpg)
 
 PCB의 경우 Github Repository에 원작자가 제작한 Eagle CAD PCB Artwork 및 Gerber File이 있다.  
 Firmware 및 소스 코드도 공개하고 있으니 아래 링크를 확인 바란다.  
+
+나의 경우 JLCPCB에 주문하여 일 주일 정도 걸려 받았다.
+
+이전에 부품 목록을 잘못 작성하여 0805 Resistor, Capacitor 및 STM32F030을 주문했는데, 1608 사이즈의 부품들과 STM32G030을 사용해야 한다. STM32F0와 STM32G0의 폼팩터는 같아도 핀 배열이 다르다.
+
+ST-Link 같은 Debugger가 없어도 초기 전원 On 시에는 UART Bootloader가 활성화되므로 걱정하지 않아도 된다. 
 
 <style>
 .footnotes {
