@@ -32,7 +32,7 @@ STM32G030F 기반으로, IR Transistor와 IR LED를 사용해 BM869s와 통신�
 | HT42B534-2 | 1 | SOIC-8 | |
 | 24C08 | 1 | SOT23-5 | 적당히 싼 것으로. |
 | TSAL6100 | 1 | T-1 3/4(5mm) | |
-| ORH-G35A | 1 | T-1 3/4(5mm) | LL-503PTC2 대체 |
+| INL-5ANPT30 | 1 | T-1 3/4(5mm) | LL-503PTC2 대체 |
 | Generic LED | 1 | 0603(1608 Metric) | |
 | 10uF / 10V MLCC | 1 | 0603(1608 Metric) | |
 | 1uF / 25V MLCC | 1 | 0603(1608 Metric) | |
