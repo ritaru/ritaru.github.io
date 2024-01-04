@@ -2,6 +2,7 @@
 layout: post
 title: "아반떼 CN7 AGM 70Ah로 배터리 교체"
 categories: Automotive
+date: 2024-01-04 22:30:00 +0900
 ---
 
 2020년 7월에 출고된 아반떼 CN7의 순정 배터리가 드디어 죽기 직전이라 교체를 감행할 수밖에 없었다.
