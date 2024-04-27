@@ -2,7 +2,7 @@
 layout: post
 title: "세나 50S용 배터리 구입기"
 categories: Tech
-date: 2024-04-28 16:00:00 +0900
+date: 2024-04-27 16:00:00 +0900
 ---
 
 ## Preface
@@ -50,9 +50,9 @@ DTP 102540 1000mAh의 Cell Characteristic이다.
 조립된 배터리의 규격은 다음과 같다.
 세나 50S 배터리가 현재 없어 전선 길이는 50mm정도로 지정했다.
 
-[![image.png](/assets/img/2024-04-28/image.png)](/assets/img/2024-04-28/image.png)
+[![image.png](/assets/img/2024-04-27/image.png)](/assets/img/2024-04-27/image.png)
 
-[![dtp-battery.jpg](/assets/img/2024-04-28/dtp-battery.jpg)](/assets/img/2024-04-28/dtp-battery.jpg)
+[![dtp-battery.jpg](/assets/img/2024-04-27/dtp-battery.jpg)](/assets/img/2024-04-27/dtp-battery.jpg)
 
 실제 배터리 충방전 테스트를 진행해본 결과, 3.84V에서 3.08V까지 300mA CC Discharge시 750mAh정도가 나왔다. 충전이 덜 되어있었음을 감안한다면 1000mAh Spec에 부합할 듯 하다.
 
