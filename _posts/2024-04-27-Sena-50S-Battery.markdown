@@ -12,7 +12,7 @@ date: 2024-04-27 16:00:00 +0900
 <!--excerpt-->
 
 세나 50S에 장착된 배터리는 XK952439로, KC 인증을 받은 배터리이다. (인증번호 YU10504-16002I)
-그러나 9.5 (Thickness) _ 24 (Width) _ 39mm(Length) 규격의 1000mAh 배터리는 흔하지 않으므로, Shenzhen Data Power Technology LTD. (DTP)의 102540 1000mAh Li-Po 배터리를 구입했다.
+그러나 9.5 (Thickness) \* 24 (Width) \* 39mm(Length) 규격의 1000mAh 배터리는 흔하지 않으므로, Shenzhen Data Power Technology LTD. (DTP)의 102540 (10 \* 25 \* 40mm) 1000mAh Li-Po 배터리를 구입했다.
 
 이것 역시 국내에서는 유통되고 있지 않지만, DTP 社의 배터리는 다른 리튬 폴리머 배터리들로 KC 인증을 받은 사례가 있어 선정했다. (인증번호 XU100743-22009H)
 
