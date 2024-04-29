@@ -91,7 +91,7 @@ Discharge Rate의 경우 특별히 걱정하지 않아도 되지만 (가장 많�
 
 |             Item             |      Characteristic      |
 | :--------------------------: | :----------------------: |
-|             Size             | 10 _ 25 _ 40 or smaller  |
+|             Size             | 10 \* 25 \* 40mm or smaller  |
 |        Min. Capacity         | 1000mAh (\@1C Discharge) |
 | Max Charge Rate (Continuous) |           1.5C           |
 |   Standard Discharge Rate    |           0.5C           |
