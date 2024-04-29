@@ -68,7 +68,7 @@ $$ \textrm{Charge Level (\%)} = {2 \over 12} * 100 \approx 16.6667\textrm{\%} $$
 
 사용되는 공식은 다음과 같다.
 
-$$ W = Power = V*I $$
+$$ \textrm{W} = \textrm{P (Power)} = \textrm{V} * \textrm{I} $$
 
 $$ x \textrm{(C)} = { {\textrm{Charge/Discharge Current(A)} \over 1.0\textrm{Ah}} }\ (x \geq 0) $$
 
