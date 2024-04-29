@@ -89,7 +89,7 @@ Discharge Rate의 경우 특별히 걱정하지 않아도 되지만 (가장 많�
 
 |             Item             |      Characteristic      |
 | :--------------------------: | :----------------------: |
-|             Size             | 10 _ 25 _ 40 or smaller  |
+|             Size             | 10 * 25 * 40 or smaller  |
 |        Min. Capacity         | 1000mAh (\@1C Discharge) |
 | Max Charge Rate (Continuous) |           1.5C           |
 |   Standard Discharge Rate    |           0.5C           |
@@ -97,21 +97,4 @@ Discharge Rate의 경우 특별히 걱정하지 않아도 되지만 (가장 많�
 
 이 정도면 위의 Scenario를 충분히 만족할 것으로 보이며, 사실 정품 배터리도 0.5C 규격으로 나오지 않았을까 의심이 든다 (배터리 수명이 빨리 줄어듦).
 
-RC용 배터리[^1]를 사용해도 되긴 하나, 952540 규격은 다음과 같은 특징을 가진다.
-
-- 25C Discharge (Continuous?)
-- 2000 Battery Cycles
-
-어차피 이런 배터리도 중국산으로, Max Charge Rate는 1C일 테니 그냥 impedance가 적은($\leq$ 100mΩ) Max Charge/Discharge Rate가 1C인 952540 또는 102540 1000mAh 리튬폴리머 배터리를 구하는 것이 좋아 보인다.
-
-<style>
-.footnotes {
-    font-size: 0.8rem;
-}
-</style>
-
----
-
-<div class="footnotes" markdown="1">
-[^1]: https://ampul.eu/en/battery/4612-li-pol-battery-1000mah-37v-952540-25c
-</div>
+그래서 일단 중국 제조사들을 상대로 제품을 수소문해보고 있다. 결과가 있다면 다른 포스트에 작성하겠다.
