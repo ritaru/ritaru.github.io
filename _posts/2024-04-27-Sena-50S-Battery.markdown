@@ -72,7 +72,7 @@ $$ \textrm{W} = \textrm{P (Power)} = \textrm{V} * \textrm{I} $$
 
 $$ x \textrm{(C)} = { {\textrm{Charge/Discharge Current(A)} \over 1.0\textrm{Ah}} }\ (x \geq 0) $$
 
-따라서 6시간 사용을 위해서 20분 동안 16.6667%의 Capacity Charge가 이루어져야 하므로 C-Rate를 계산해 보면 다음과 같다.
+따라서 2시간 사용을 위해서 20분 동안 16.6667%의 Capacity Charge가 이루어져야 하므로 C-Rate를 계산해 보면 다음과 같다.
 
 $$ \textrm{Rapid Charge Rate} = { {3.7\textrm{Wh} * {2 \over 12}} \over 3.7\textrm{V} * {1 \over 3}\textrm{h} } = 1.0\textrm{A} * {6 \over 12} = 0.5\textrm{C} $$
 
