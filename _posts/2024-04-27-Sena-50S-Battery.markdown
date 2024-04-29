@@ -31,11 +31,11 @@ DTP 102540 1000mAh의 Cell Characteristic이다.
 |           Nominal Voltage            |        3.7V        |                            |
 |         Charge Limit Voltage         |        4.2V        |                            |
 |      Discharge Cut-off Voltage       |        2.4V        | Cell 자체 Cut-off 권장전압 |
-|           Standard Charge            |    0.2C (200mA)    |
-|          Standard Discharge          |    0.2C (200mA)    |
-|  Maximum Continuous Charge Current   |    0.5C (500mA)    |
-| Maximum Continuous Discharge Current |    0.5C (500mA)    |
-|     Operating Temperature Range      |      0 ~ 45℃       |
+|           Standard Charge            |    0.2C (200mA)    |                            |
+|          Standard Discharge          |    0.2C (200mA)    |                            |
+|  Maximum Continuous Charge Current   |    0.5C (500mA)    |                            |
+| Maximum Continuous Discharge Current |    0.5C (500mA)    |                            |
+|     Operating Temperature Range      |      0 ~ 45℃       |                            |
 |            Cell Impedance            | Less than 100mohms |                            |
 
 다음은 BMS의 Characteristic이다. BMS는 DW01을 사용하는 간단한 회로이다.
@@ -72,11 +72,11 @@ $$ W = Power = V*I\ (x\ C = {{Charge/Discharge\ Current(A) \over 1.0Ah}}) $$
 
 따라서 6시간 사용을 위해서 20분 동안 42.86%의 Capacity Charge가 이루어져야 하므로 C-Rate를 계산해 보면 다음과 같다.
 
-$$ Rapid\ Charge\ Rate\ (C) = {{3.7Wh * {2 \over 12}} \over 3.7V _ {1 \over 3}h } = 1.0A _ {6 \over 12} = 0.5C $$
+$$ Rapid\ Charge\ Rate\ (C) = {{3.7Wh * {2 \over 12}} \over 3.7V * {1 \over 3}h } = 1.0A * {6 \over 12} = 0.5C $$
 
 이후에는 정상적으로 CC-CV 충전이 진행되므로, 나머지 83.3333%에 대하여 충전을 40분동안 진행한다면 다음과 같은 Charge Rate를 가진다.
 
-$$ Charge\ Rate\ (C) = {{3.7Wh * {10 \over 12}} \over 3.7V _ {2 \over 3}h} = 1.0A _ {5 \over 4} = 1.25C $$
+$$ Charge\ Rate\ (C) = {{3.7Wh * {10 \over 12}} \over 3.7V * {2 \over 3}h} = 1.0A * {5 \over 4} = 1.25C $$
 
 위의 Specification에서 적은 것처럼, Max Continuous Charge Rate은 0.5C로 지정되어 있다.  
 Discharge Rate의 경우 특별히 걱정하지 않아도 되지만 (가장 많이 전력을 소모하는 메시 인터콤의 경우 11시간, 계산 시 소모량 약 91mAh) Charge Rate의 경우 Max Continuous Charge Rate가 상당히 적게 책정되어 있으므로 Max값에서 0.75C를 초과하여 충전해도 되는가에 대해서는 조금 생각해 볼 여지가 있다.
@@ -89,7 +89,7 @@ Discharge Rate의 경우 특별히 걱정하지 않아도 되지만 (가장 많�
 
 |             Item             |      Characteristic      |
 | :--------------------------: | :----------------------: |
-|             Size             | 10 * 25 * 40 or smaller  |
+|             Size             | 10 _ 25 _ 40 or smaller  |
 |        Min. Capacity         | 1000mAh (\@1C Discharge) |
 | Max Charge Rate (Continuous) |           1.5C           |
 |   Standard Discharge Rate    |           0.5C           |
