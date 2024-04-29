@@ -64,22 +64,21 @@ DTP 102540 1000mAh의 Cell Characteristic이다.
 
 기존 배터리가 1000mAh이므로 1C = 1A이고, 블루투스 인터콤의 경우 만충시 12시간 사용이 가능하므로 약간의 계산을 해 보면 다음과 같다.
 
-$$ Charge\ Level\ (\%) = {2 \over 12} * 100 \approx 16.6667\% $$
+$$ \textrm{Charge Level (\%)} = {2 \over 12} * 100 \approx 16.6667\textrm{\%} $$
 
 사용되는 공식은 다음과 같다.
 
 $$ W = Power = V*I $$
 
-
-$$ x\ C = {{Charge/Discharge\ Current(A) \over 1.0Ah}},\ (x \geq 0) $$
+$$ x \textrm{(C)} = { {\textrm{Charge/Discharge Current(A)} \over 1.0\textrm{Ah}} }\ (x \geq 0) $$
 
 따라서 6시간 사용을 위해서 20분 동안 42.86%의 Capacity Charge가 이루어져야 하므로 C-Rate를 계산해 보면 다음과 같다.
 
-$$ Rapid\ Charge\ Rate\ (C) = {{3.7Wh * {2 \over 12}} \over 3.7V * {1 \over 3}h } = 1.0A * {6 \over 12} = 0.5C $$
+$$ \textrm{Rapid Charge Rate} = { {3.7\textrm{Wh} * {2 \over 12}} \over 3.7\textrm{V} * {1 \over 3}\textrm{h} } = 1.0\textrm{A} * {6 \over 12} = 0.5\textrm{C} $$
 
 이후에는 정상적으로 CC-CV 충전이 진행되므로, 나머지 83.3333%에 대하여 충전을 40분동안 진행한다면 다음과 같은 Charge Rate를 가진다.
 
-$$ Charge\ Rate\ (C) = {{3.7Wh * {10 \over 12}} \over 3.7V * {2 \over 3}h} = 1.0A * {5 \over 4} = 1.25C $$
+$$ \textrm{Charge Rate (C)} = { {3.7\textrm{Wh} * {10 \over 12}} \over 3.7\textrm{V} * {2 \over 3}\textrm{h} } = 1.0\textrm{A} * {5 \over 4} = 1.25\textrm{C} $$
 
 위의 Specification에서 적은 것처럼, Max Continuous Charge Rate은 0.5C로 지정되어 있다.  
 Discharge Rate의 경우 특별히 걱정하지 않아도 되지만 (가장 많이 전력을 소모하는 메시 인터콤의 경우 11시간, 계산 시 소모량 약 91mAh) Charge Rate의 경우 Max Continuous Charge Rate가 상당히 적게 책정되어 있으므로 Max값에서 0.75C를 초과하여 충전해도 되는가에 대해서는 조금 생각해 볼 여지가 있다.
