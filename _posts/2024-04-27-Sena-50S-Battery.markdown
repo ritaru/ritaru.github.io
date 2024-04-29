@@ -68,7 +68,10 @@ $$ Charge\ Level\ (\%) = {2 \over 12} * 100 \approx 16.6667\% $$
 
 사용되는 공식은 다음과 같다.
 
-$$ W = Power = V*I\ (x\ C = {{Charge/Discharge\ Current(A) \over 1.0Ah}}) $$
+$$ W = Power = V*I $$
+
+
+$$ x\ C = {{Charge/Discharge\ Current(A) \over 1.0Ah}},\ (x \geq 0) $$
 
 따라서 6시간 사용을 위해서 20분 동안 42.86%의 Capacity Charge가 이루어져야 하므로 C-Rate를 계산해 보면 다음과 같다.
 
