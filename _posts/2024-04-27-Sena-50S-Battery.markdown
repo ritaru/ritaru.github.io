@@ -64,11 +64,11 @@ DTP 102540 1000mAh의 Cell Characteristic이다.
 
 기존 배터리가 1000mAh이므로 1C = 1A이고, 블루투스 인터콤의 경우 만충시 12시간 사용이 가능하므로 약간의 계산을 해 보면 다음과 같다.
 
-$$ Charge\ Level\ (\%) = {2 \over 12} \* 100 \approx 16.6667\% $$
+$$ Charge\ Level\ (\%) = {2 \over 12} * 100 \approx 16.6667\% $$
 
 사용되는 공식은 다음과 같다.
 
-$$ W = Power = V\*I\ (x\ C = {{Charge/Discharge\ Current(A) \over 1.0Ah}}) $$
+$$ W = Power = V*I\ (x\ C = {{Charge/Discharge\ Current(A) \over 1.0Ah}}) $$
 
 따라서 6시간 사용을 위해서 20분 동안 42.86%의 Capacity Charge가 이루어져야 하므로 C-Rate를 계산해 보면 다음과 같다.
 
