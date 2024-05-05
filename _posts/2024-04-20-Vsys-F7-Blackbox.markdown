@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "혼다 슈퍼커브 110 2023년형 (JA59E / NBC110) 블랙박스 장착하기"
+title: "혼다 슈퍼커브 110 2023년형 (JA56E / NBC110) 블랙박스 장착하기"
 categories: Automotive
 date: 2024-04-20 16:00:00 +0900
 ---
