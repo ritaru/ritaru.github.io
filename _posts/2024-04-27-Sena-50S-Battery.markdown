@@ -64,6 +64,13 @@ DTP 102540 1000mAh의 Cell Characteristic이다.
 
 기존 배터리가 1000mAh이므로 1C = 1A이고, 블루투스 인터콤의 경우 만충시 12시간 사용이 가능하므로 약간의 계산을 해 보면 다음과 같다.
 
+<style>
+    .katex {
+        font-size: 0.95rem !important;
+        overflow-x: auto;
+    }
+</style>
+
 $$ \textrm{Charge Level (\%)} = {2 \over 12} * 100 \approx 16.6667\textrm{\%} $$
 
 사용되는 공식은 다음과 같다.
@@ -79,3 +86,7 @@ $$ \textrm{Rapid Charge Rate} = { {3.7\textrm{Wh} * {2 \over 12}} \over 3.7\text
 이후에는 정상적으로 CC-CV 충전이 진행되므로, 나머지 83.3333%에 대하여 충전을 130분동안 진행한다면 다음과 같은 Charge Rate를 가진다.
 
 $$ \textrm{Charge Rate (C)} = { {3.7\textrm{Wh} * {10 \over 12}} \over 3.7\textrm{V} * {6 \over 13}\textrm{h} } = 1.0\textrm{A} * {5 \over 13} \approx 0.384 \textrm{C} $$
+
+## Added 2024-05-02
+
+102540 배터리의 경우 기존 배터리보다 두꺼워서 Height가 Clearance 확보가 되지 않아 사용이 불가능하다. 952540 / 1000mAh가 아니면 사용이 불가능할 것으로 보인다.
