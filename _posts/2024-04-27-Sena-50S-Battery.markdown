@@ -65,9 +65,12 @@ DTP 102540 1000mAh의 Cell Characteristic이다.
 기존 배터리가 1000mAh이므로 1C = 1A이고, 블루투스 인터콤의 경우 만충시 12시간 사용이 가능하므로 약간의 계산을 해 보면 다음과 같다.
 
 <style>
-    .katex {
-        font-size: 0.95rem !important;
-        overflow-x: auto;
+    @media (max-width: 575px) {
+        .katex {
+            font-size: 0.95rem !important;
+            overflow-x: auto;
+            height: max-content;
+        }
     }
 </style>
 
