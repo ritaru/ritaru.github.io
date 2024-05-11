@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "현대자동차 아반떼 CN7 MDPS 스몰 베어링 교체"
-categories: Tech
+categories: Automotive
 ---
 
 # Preface
