@@ -36,13 +36,13 @@ date: 2024-05-25 10:00:00 +0900
 
 ## Reading materials
 
-- https://courses.physics.illinois.edu/cs433/fa2022/projects/AMD-Zen.pdf
-- https://en.wikichip.org/wiki/amd/infinity_fabric
-- https://www.nas.nasa.gov/hecc/support/kb/skylake-processors_550.html
-- https://www.intel.com/content/www/us/en/developer/articles/technical/fourth-generation-xeon-scalable-family-overview.html
-- https://www.amd.com/system/files/2018-03/AMD-Optimizes-EPYC-Memory-With-NUMA.pdf
-- https://brunch.co.kr/@dreaminz/4
-- https://www.geeksforgeeks.org/difference-between-uniform-memory-access-uma-and-non-uniform-memory-access-numa/
+- [https://courses.physics.illinois.edu/cs433/fa2022/projects/AMD-Zen.pdf](https://courses.physics.illinois.edu/cs433/fa2022/projects/AMD-Zen.pdf)
+- [https://en.wikichip.org/wiki/amd/infinity_fabric](https://en.wikichip.org/wiki/amd/infinity_fabric)
+- [https://www.nas.nasa.gov/hecc/support/kb/skylake-processors_550.html](https://www.nas.nasa.gov/hecc/support/kb/skylake-processors_550.html)
+- [https://www.intel.com/content/www/us/en/developer/articles/technical/fourth-generation-xeon-scalable-family-overview.html](https://www.intel.com/content/www/us/en/developer/articles/technical/fourth-generation-xeon-scalable-family-overview.html)
+- [https://www.amd.com/system/files/2018-03/AMD-Optimizes-EPYC-Memory-With-NUMA.pdf](https://www.amd.com/system/files/2018-03/AMD-Optimizes-EPYC-Memory-With-NUMA.pdf)
+- [https://brunch.co.kr/@dreaminz/4](https://brunch.co.kr/@dreaminz/4)
+- [https://www.geeksforgeeks.org/difference-between-uniform-memory-access-uma-and-non-uniform-memory-access-numa/](https://www.geeksforgeeks.org/difference-between-uniform-memory-access-uma-and-non-uniform-memory-access-numa/)
 
 
 <style>
