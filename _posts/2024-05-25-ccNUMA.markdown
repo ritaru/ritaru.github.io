@@ -13,9 +13,9 @@ date: 2024-05-25 10:00:00 +0900
 
 3. 이 때 각 CPU들은 서로 Memory를 공유하지 못하므로 별도의 Link를 통해 Memory를 공유하는데, Remote Memory의 경우 Latency 및 Bandwidth의 차이가 있을 수 있으므로 Non-Uniform한 Access를 제공하게 된다. 이것이 NUMA의 정의이다.
 
-4. 이러한 Link를 제공하기 위해서 Intel의 경우 QPI (QuickPath Interconnect, 2008-2017), UPI[^1] (Ultra Path Interconnect, 2017-)를, AMD의 경우 HyperTransport를 사용하고 있다.
+4. 이러한 Link를 제공하기 위해서 Intel의 경우 QPI (QuickPath Interconnect, 2008-2017), UPI[^1] (Ultra Path Interconnect, 2017-)[^2]를, AMD의 경우 HyperTransport (superceded by Infinity Fabric)를 사용하고 있다.
 
-5. On-die Mesh Network와 NUMA를 적용할 경우 Die 내부, 또는 Package 내부에서 Memory Latency가 Core별로 다른 것을 인식하고, 추가적인 Optimization[^2]을 적용할 수 있도록 한다. 이 덕분에 Inter-Socket Link와는 별도로 sub-NUMA Optimization 역시 가능한데, Intel의 Manhattan Mesh는 Task 중 Memory Intensive한 작업들을 Memory Controller와 가까운 Core에 몰아주는 형태로 Optimization을 진행한다. Intel의 경우 이를 SNC (sub-NUMA cluster mode)라 한다. 
+5. On-die Mesh Network와 NUMA를 적용할 경우 Die 내부, 또는 Package 내부에서 Memory Latency가 Core별로 다른 것을 인식하고, 추가적인 Optimization[^3]을 적용할 수 있도록 한다. 이 덕분에 Inter-Socket Link와는 별도로 sub-NUMA Optimization 역시 가능한데, Intel의 Manhattan Mesh는 Task 중 Memory Intensive한 작업들을 Memory Controller와 가까운 Core에 몰아주는 형태로 Optimization을 진행한다. Intel의 경우 이를 SNC (sub-NUMA cluster mode)라 한다. 
 
 6. NUMA-aware한 System의 경우 IaaS 등의 서비스에서 진가를 발휘하는데, 고객이 VM 할당을 요청했을 때 NUMA-aware하지 않은 System은 cluster의 자원들을 Latency와 같은 cost를 고려하지 않고 할당해 주지만, NUMA-aware한 경우 이러한 Cost를 줄이기 위해 최대한 적은 cost (같은 Node)의 자원을 할당해 준다.
 
@@ -31,7 +31,7 @@ date: 2024-05-25 10:00:00 +0900
 
 ## Side Notes
 
-1. NUMA와 상반되는 개념으로는 UMA (Uniform Memory Access)가 있다. 대표적으로 SMP (Symmetric Multi-Processor), hUMA[^3] (AMD heterogenous Uniform Memory Access)가 있다. UMA의 장점으로는 NUMA에 비해 부가적인 하드웨어가 적고 Complexity가 낮다는 점이 있다. 하지만 특정 Level 이상으로 가게 되면 Scalable하지 않고, Bandwidth와 Memory Capacity 측면에서 제한적이다.
+1. NUMA와 상반되는 개념으로는 UMA (Uniform Memory Access)가 있다. 대표적으로 SMP (Symmetric Multi-Processor), hUMA[^4] (AMD heterogenous Uniform Memory Access)가 있다. UMA의 장점으로는 NUMA에 비해 부가적인 하드웨어가 적고 Complexity가 낮다는 점이 있다. 하지만 특정 Level 이상으로 가게 되면 Scalable하지 않고, Bandwidth와 Memory Capacity 측면에서 제한적이다.
 
 
 ## Reading materials
@@ -54,6 +54,7 @@ date: 2024-05-25 10:00:00 +0900
 ---
 <div class="footnotes" markdown="1">
 [^1]: Intel Sapphire Rapids 기준 UPI Interconnect의 Link당 속도는 16GT/s, 이론상 대역폭은 32GB/s이다. (2 Bytes / Transfer, Unidirectional)
-[^2]: 하드웨어 레벨의 지원과는 별도로 OS에서는 최적화를 위해 Task를 특정 Core나 Pool에서만 실행하도록 하고 (Processor Affinity), 이 Task들이 필요로 하는 데이터를 각 Task가 사용중이 Core와 가장 가까운 곳에서 Load할 수 있도록 한다 (Memory Affinity).
-[^3]: AMD APU(CPU with integrated Graphics)를 발표하면서 나온 UMA Scheme이다. CPU와 GPU가 Memory Space를 공유하고, Bidirectional Memory Coherency를 지원한다. 이를 통해 GPU의 memory copy로 인한 Overhead를 극복할 수 있다.
+[^2]: Intel Sandy Bridge 구조의 경우 QPI/UPI가 아닌 Ring Bus 구조를 사용한다. 소비자용 CPU의 Link는 세대 별로 차이가 크므로 여기서는 기술하지 않겠다.
+[^3]: 하드웨어 레벨의 지원과는 별도로 OS에서는 최적화를 위해 Task를 특정 Core나 Pool에서만 실행하도록 하고 (Processor Affinity), 이 Task들이 필요로 하는 데이터를 각 Task가 사용중이 Core와 가장 가까운 곳에서 Load할 수 있도록 한다 (Memory Affinity).
+[^4]: AMD APU(CPU with integrated Graphics)를 발표하면서 나온 UMA Scheme이다. CPU와 GPU가 Memory Space를 공유하고, Bidirectional Memory Coherency를 지원한다. 이를 통해 GPU의 memory copy로 인한 Overhead를 극복할 수 있다.
 </div>
