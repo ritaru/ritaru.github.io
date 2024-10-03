@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NUMA와 ccNUMA, 그리고 Cache Coherency"
-categories: System Architecture
+categories: System-Architecture
 date: 2024-05-25 10:00:00 +0900
 ---
 
